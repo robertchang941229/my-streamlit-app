@@ -51,7 +51,6 @@ except Exception as e:
     st.error("目前無法讀取公告資料")
     st.exception(e)
 
-
 # 4. 意見回饋文字輸入區
 feedback = st.text_area("意見回饋")
 
